@@ -1,0 +1,8 @@
+pack,phase,cell_index,voltage_V,source,confidence
+B,after F1 replacement and nonvolatile fault service,1,4.152,J-Link RAM reading of firmware-updated BQ76930 voltages,user reported
+B,after F1 replacement and nonvolatile fault service,2,4.151,J-Link RAM reading of firmware-updated BQ76930 voltages,user reported
+B,after F1 replacement and nonvolatile fault service,3,4.160,J-Link RAM reading of firmware-updated BQ76930 voltages,user reported
+B,after F1 replacement and nonvolatile fault service,4,4.153,J-Link RAM reading of firmware-updated BQ76930 voltages,user reported
+B,after F1 replacement and nonvolatile fault service,5,4.146,J-Link RAM reading of firmware-updated BQ76930 voltages,user reported
+B,after F1 replacement and nonvolatile fault service,6,4.154,J-Link RAM reading of firmware-updated BQ76930 voltages,user reported
+B,after F1 replacement and nonvolatile fault service,7,4.147,J-Link RAM reading of firmware-updated BQ76930 voltages,user reported
