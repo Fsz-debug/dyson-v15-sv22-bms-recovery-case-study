@@ -1,4 +1,4 @@
-# Dyson V15 SV22 — Battery BMS Recovery: A Saudi Independent Repair Case Study 🇸🇦
+# Dyson V15 SV22 — Battery BMS Recovery: A Independent Repair Case Study 
 
 > **Status: partial, documented recovery — not a complete, independently validated battery repair.**
 > **This is a case study, not an executable end-to-end flashing procedure.**
@@ -10,7 +10,7 @@ I investigated two separate Dyson V15 / SV22 lithium-ion battery packs. One pack
 
 The results were obtained experimentally by measuring actual circuit voltages, inspecting MCU RAM and peripheral registers, reading the battery AFE through firmware diagnostics, and comparing readings before and after physical repairs.
 
-**Important:** This work builds on existing community firmware and documentation; I do not claim to have invented the entire firmware, to be the first worldwide to perform the procedure, or to have completed all functional validation.
+**Important:** This work builds on existing community firmware and documentation.
 
 ## Tested environment
 
