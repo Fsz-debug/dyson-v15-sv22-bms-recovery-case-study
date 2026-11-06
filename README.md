@@ -83,30 +83,13 @@ Measured cell voltages (Pack B, final read-only snapshot):
 
 Data behind the plot: [`cell-readings.csv`](cell-readings.csv) and [`measurement-notes.md`](measurement-notes.md).
 
-## The intentionally withheld portion
-
-This public report **does not include the decisive standalone-startup intervention**: the precise diagnosis, component/value, connection points, and long-term rework details. Full annotated source, private notes, and firmware binaries are also not distributed; this prevents unintended distribution of GPL-derived build artifacts and private materials, rather than implying those files are the secret step.
-
-**Contact the author for collaboration on this non-public step.** The omission is deliberate and disclosed. It is **not** a technological lock: another researcher may independently discover an equivalent repair. Nothing here should be interpreted as an instruction to erase an otherwise functional BMS and then attempt an incomplete procedure.
-
-## Debugging workflow — reproducibility notes
-
-The investigator used SWD diagnostics, a build-specific ELF symbol map, and read-only inspection of controller state and per-cell readings. MCU RAM symbol addresses changed between firmware builds; blindly reusing an address from another build caused misleading zeros. Exact programming and private service scripts are intentionally not packaged here. Do not erase a working BMS based on this report.
-
-## What is *not* claimed
-
-- No verified multi-cycle, real-world charge/discharge qualification is provided for Pack B.
-- No guarantee is made that the same board repair applies to other SV22 PCB revisions.
-- No claim of a unique, first-in-the-world technique is made.
-- No binary firmware or full modified source is distributed here.
-
 ## Acknowledgments and software rights
 
 The firmware work was built on the work of the community authors of [`V11_Dyson_BMS`](https://github.com/vladislav1983/V11_Dyson_BMS) and [`V10_Dyson_BMS`](https://github.com/davidmpye/V10_Dyson_BMS). The former states **GPL-3.0-or-later**. If modified GPL-covered firmware is distributed in source or binary form, applicable license obligations must be followed. This publication contains original descriptive case-study text only and links to upstream projects.
 
 ## Safety and research note
 
-High-energy lithium-ion packs can cause fire or injury when opened, shorted, improperly charged, or subjected to unvalidated firmware. This article intentionally avoids offering a turnkey flashing or bypass procedure. Repair outcomes described here are observations from specific test packs, not general guarantees.
+High-energy lithium-ion packs can cause fire or injury when opened, shorted, improperly charged, or subjected to unvalidated firmware. 
 
 ---
 
